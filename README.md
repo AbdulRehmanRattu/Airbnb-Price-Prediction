@@ -1,5 +1,20 @@
 # Airbnb Nightly Price Prediction and Dynamic Valuation Engine
 
+<div align="center">
+
+[<img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License">](https://opensource.org/licenses/Apache-2.0)
+<img src="https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB.svg?logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/ML-Scikit--Learn-F7931E.svg?logo=scikit-learn&logoColor=white" alt="Machine Learning">
+<img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg" alt="Status">
+
+**Enterprise-grade, high-performance implementation built and maintained by Abdul Rehman Rattu.**
+
+[Overview](#overview) • [Key Features](#key-features) • [Installation & Usage](#quickstart--usage) • [Author & Maintainer](#author--maintainer)
+
+</div>
+
+---
+
 ## Overview
 
 Accurate pricing in short-term rental markets is critical for maximizing property host revenue while maintaining competitive occupancy rates. Dynamic pricing must account for multifaceted property characteristics, geographic variations, amenity offerings, and host reputation metrics.
@@ -7,7 +22,6 @@ Accurate pricing in short-term rental markets is critical for maximizing propert
 This project develops an end-to-end price valuation and regression pipeline trained on comprehensive Airbnb listing datasets. By combining automated missing value imputation, multi-hot amenity extraction, geospatial encoding, and gradient-boosted ensemble modeling, the framework predicts the natural logarithm of nightly listing prices (`log_price`) with a Mean Squared Error (MSE) of 0.169.
 
 ---
-
 
 ---
 
@@ -154,3 +168,15 @@ Execute the end-to-end valuation pipeline:
 jupyter notebook project.ipynb
 ```
 Upon execution, predictions for test listings are automatically computed, post-processed, and saved to `predictions.csv`.
+
+---
+
+## Author & Maintainer
+
+**Abdul Rehman Rattu**  
+*Forward Deployed AI Engineer & Solutions Architect*  
+*Founder & Technical Lead, Rapide Technologies*
+
+* **Email**: [rattu786.ar@gmail.com](mailto:rattu786.ar@gmail.com)
+* **LinkedIn**: [linkedin.com/in/abdul-rehman-rattu-395bba237](https://www.linkedin.com/in/abdul-rehman-rattu-395bba237)
+* **GitHub**: [github.com/AbdulRehmanRattu](https://github.com/AbdulRehmanRattu)
