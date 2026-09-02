@@ -3,13 +3,14 @@
 <div align="center">
 
 [<img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License">](https://opensource.org/licenses/Apache-2.0)
-<img src="https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB.svg?logo=python&logoColor=white" alt="Python">
-<img src="https://img.shields.io/badge/ML-Scikit--Learn-F7931E.svg?logo=scikit-learn&logoColor=white" alt="Machine Learning">
+<img src="https://img.shields.io/badge/Python-3.10%20%7C%203.11-3776AB.svg?logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/Regression-Gradient%20Boosting%20%7C%20Random%20Forest-F7931E.svg?logo=scikit-learn&logoColor=white" alt="Regression">
+<img src="https://img.shields.io/badge/Valuation-Dynamic%20Pricing%20Engine-0052FF.svg" alt="Valuation">
 <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg" alt="Status">
 
 **Enterprise-grade, high-performance implementation built and maintained by Abdul Rehman Rattu.**
 
-[Overview](#overview) • [Key Features](#key-features) • [Installation & Usage](#quickstart--usage) • [Author & Maintainer](#author--maintainer)
+[Overview](#overview) • [Key Features](#key-features) • [Installation & Usage](#quickstart--deployment) • [Author & Maintainer](#author--maintainer)
 
 </div>
 
@@ -168,6 +169,8 @@ Execute the end-to-end valuation pipeline:
 jupyter notebook project.ipynb
 ```
 Upon execution, predictions for test listings are automatically computed, post-processed, and saved to `predictions.csv`.
+
+---
 
 ---
 
